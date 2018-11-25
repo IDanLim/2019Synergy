@@ -1,0 +1,85 @@
+/* ----- Tablet (Portrait) -- 768px ----- */
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .container               { width: 768px; }
+
+    .container .small.column { width: 236px; }
+    .container .half.column  { width: 364px; }
+    .container .big.column   { width: 488px; }
+    .container .full.column  { width: 748px; }
+  }
+
+
+/* ----- Mobile (Portrait) ----- */
+  @media only screen and (max-width: 767px) {
+    .container                { width:  96%; }
+    .container .column        { margin:  1%; }
+
+    .container .small.column { width: 48%; }
+    .container .half.column  { width: 48%; }
+    .container .big.column   { width: 98%; }
+    .container .full.column  { width: 98%; }
+  }
+
+
+/* ----- Mobile (Landscape) -- 480px ----- */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container                { width:  92%; }
+    .container .column        { margin:  2%; }
+
+    .container .small.column { width: 46%; }
+    .container .half.column  { width: 46%; }
+    .container .big.column   { width: 96%; }
+    .container .full.column  { width: 96%; }
+  }
+
+
+/* mid size (tablets, landscapes) */
+@media only screen and (max-width: 679px) {
+  nav { font-size:11px; }
+  nav ul li {
+    min-width:60px;
+    line-height:40px;
+  }
+}
+
+/* tiny size (phones) */
+@media only screen and (max-width: 380px) {
+  nav ul li { min-width:90px; line-height:20px; }
+}
+
+/* anything not desktop */
+@media only screen and (max-width: 767px) {
+	.container h1 { font-size: 30px; }
+	.container h2 { font-size: 24px; }
+	.container h3 { font-size: 20px; }
+	.container h4 { font-size: 18px; }
+
+
+  .section { padding:130px 0; }
+  .sectiondivider {
+    width:200px;
+    height:200px;
+    padding:15px;
+    top:-100px;
+    margin-left:-100px;
+  }
+  .sectiondivider img {
+    width:150px;
+    height:180px;
+  }
+  .sectiondivider .fa-stack {
+    font-size: 100px;
+    margin-top: -14px;
+  }
+  .sectiondivider h5 {
+    font-size:15px;
+    bottom:30px; 
+    width:170px
+  }
+
+  .columned {
+    -webkit-column-count: 2;
+    -moz-column-count:    2;
+    column-count:         2;
+  }
+}

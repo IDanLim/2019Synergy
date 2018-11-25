@@ -7,23 +7,67 @@
         <title>너는 나의 Synergy~!!</title>
         <link href="/2019Synergy/css/bootstrap.min.css" rel="stylesheet">
         <style>
-            .container{
-                display:felx;
-                justify-content: center;
-            }
-            @media screen and (max-width: 600px) {
-                .col-25, .col-75, .col-90, .col-10, input[type=submit] {
-                    width: 100%; 
-                    margin-top: 0;
-                }
-            }
+        .container{
+            margin-top: 100px;
+            margin-bottom: 100px;
+            display: flex;
+            justify-content: center;
+        }
+        .icons-container{
+            margin-bottom: 70px;
+        }
+        .icons{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #기조{
+            margin-left:15px;
+            margin-right:15px;
+        }
+        #후보자약력{
+            margin-left:15px;
+            margin-right:15px;
+        }
+        #정책자료집{
+            margin-left:15px;
+            margin-right:15px;
+        }
+        .chapters-container{
+            margin-bottom: 70px;
+        }
+        .chapters{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="row">
-                <div class "col-md-1">
+                <div class="col-sm">
                     <img src="/2019Synergy/img/시너지로고.png">
+                </div>
+            </div>
+        </div>
+        <div class="icons-container">
+            <div class="icons">
+                <div class="col-sm" id="기조">
+                    <img src="/2019Synergy/img/기조아이콘.png">
+                </div>
+                <div class="col-sm" id="후보자약력">
+                    <img src="/2019Synergy/img/후보자약력아이콘.png">
+                </div>
+                <div class="col-sm" id="정책자료집">
+                    <img src="/2019Synergy/img/정책자료집아이콘.png">
+                </div>
+            </div>
+        </div>
+        <div class="chapters-container">
+            <div class="chapters">
+                <div class="col-sm" id="one">
+                    <img src="/2019Synergy/img/챕터원아이콘.png">
                 </div>
             </div>
         </div>

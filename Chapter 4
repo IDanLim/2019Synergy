@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Synergy 후보자약력</title>
+        <link rel="stylesheet" href="combo.css">
+        <link href="/2019Synergy/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+        .container{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .pic{
+            width:40%;
+            height: 40%;
+        }
+        .container_text{
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-bottom: 5%;
+        }
+        .container p:first-of-type {
+            margin-top: 0px;
+        }
+       
+        </style>
+    </head>
+<body>
+        <div class="container">
+            <div> 
+                <a href="/2019Synergy/index.html"><img src="/2019Synergy/img/시너지로고.png"></a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="pic">
+                <img src="/2019Synergy/img/4.1.png">
+            </div>
+        </div>
+        <div class="container">
+            <div class="pic">
+                <img src="/2019Synergy/img/4.2.png">
+            </div>
+        </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/2019Synergy/js/bootstrap.min.js"></script>
+    <script>
+    </script>
+</body>
+</html>
